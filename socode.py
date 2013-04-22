@@ -92,7 +92,10 @@ def ncammarata():
     tweets = json.loads(requests.get("https://search.twitter.com/search.json?q=a").content)
     tweet = tweets['results'][0]['text']
     print "Random Tweet:", tweet.encode('utf-8') 
-
+def dexuter():
+	printf "hello world from shenzhen University"
+	print   "我对python不是很熟，纯粹打酱油，围观各路ds"
+	
 # Generate a random nonsense word with a vowel:consolant ratio of 1:5
 def taylorlapeyre():
     word = []
